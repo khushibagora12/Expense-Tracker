@@ -10,3 +10,4 @@ class User(Base):
     displayName = Column(String, nullable=False)
     email = Column(String, unique=True, nullable=False)
 
+
